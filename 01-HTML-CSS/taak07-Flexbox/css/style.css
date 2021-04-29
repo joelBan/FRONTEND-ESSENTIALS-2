@@ -30,11 +30,22 @@
 /* TIP: Laat bovenstaande code staan */
 
 /* dobbelsteen1 */
-
+.dobbelsteen1{
+    align-items: center;
+    justify-content: center;
+}
 /* dobbelsteen2 */
-
+.dobbelsteen2, .rechts{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
 /* dobbelsteen3 */
-
+.dobbelsteen3, .midden{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* dobbelsteen4 */
 
 /* dobbelsteen5 */
